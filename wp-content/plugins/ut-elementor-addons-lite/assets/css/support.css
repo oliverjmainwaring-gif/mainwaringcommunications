@@ -1,0 +1,1291 @@
+.center{
+
+	text-align: center !important;
+
+}
+
+.right{
+
+	text-align: right !important;
+
+}
+
+.tleft{
+
+	text-align: left !important;
+
+}
+
+.kali-hide, .kali-tablet-hide, .kali-mobile-hide{
+
+	display: none !important;
+
+}
+
+/*-------------------------
+
+default css
+
+--------------------------*/
+
+.sub-menu {
+
+    padding: 0;
+
+    margin: 0;
+
+    list-style-type: none;
+
+    position: absolute;
+
+    top: 100%;
+
+    left: 0;
+
+    width: 200px;
+
+    box-shadow: 0px 0px 10px rgba(0,0,0,0.15);
+
+    z-index: 5;
+
+    opacity: 0;
+
+    visibility: hidden;
+
+    -webkit-transition: all .400s ease-in-out;
+
+    -moz-transition: all .400s ease-in-out;
+
+    -ms-transition: all .400s ease-in-out;
+
+    -o-transition: all .400s ease-in-out;
+
+    transition: all .400s ease-in-out;
+
+    -webkit-transform: translateY(20px);
+
+    -moz-transform: translateY(20px);
+
+    -ms-transform: translateY(20px);
+
+    -o-transform: translateY(20px);
+
+    transform: translateY(20px);
+
+}
+
+.sub-menu li a {
+
+    display: inline-block;
+
+    padding: 15px;
+
+    width: 100%;
+
+    background-color: #fff;
+
+    color: #404040;
+
+    line-height: 1;
+
+    font-size: 14px;
+
+    border-bottom: 0px;
+
+}
+
+.sub-menu li:last-item>a {
+
+    border-bottom: 0px;
+
+}
+
+div.ut-elementor-addons-lite-main-menu nav ul li.menu-item-has-children{
+
+    position: relative;
+
+}
+
+div.ut-elementor-addons-lite-main-menu nav ul li.menu-item-has-children:after{
+
+    content: '';
+
+    position: absolute;
+
+    display: block;
+
+    right: 0px;
+
+    width: 0;
+
+    height: 0;
+
+    top: 50%;
+
+    transform: translateY(-50%);
+
+    border-left: 4px solid transparent;
+
+    border-right: 4px solid transparent;
+
+    border-top: 6px solid #fff;
+
+    transition: all 0.3s ease-in-out;
+
+}
+
+div.ut-elementor-addons-lite-main-menu nav ul li.menu-item-has-children ul li:after{
+
+    top: 5px;
+
+}
+
+.form-overlay-close-button i.fa.fa-close,
+
+span#off-canvas-menu-close i.fa.fa-close,
+
+span.overlay-menu-close i.fa.fa-close {
+
+    width: 26px;
+
+    height: 26px;
+
+    display: flex;
+
+    align-items: center;
+
+}
+
+.form-overlay-close-button i.fa.fa-close:after,
+
+.form-overlay-close-button i.fa.fa-close:before,
+
+span#off-canvas-menu-close i.fa.fa-close:before,
+
+span#off-canvas-menu-close i.fa.fa-close:after,
+
+span.overlay-menu-close i.fa.fa-close:before,
+
+span.overlay-menu-close i.fa.fa-close:after{
+
+    content: '';
+
+    position: absolute;
+
+    display: block;
+
+    width: 26px;
+
+    height: 2px;
+
+    background-color: #fff;
+
+    transform-origin: center;
+
+}
+
+.form-overlay-close-button i.fa.fa-close:after,
+
+span#off-canvas-menu-close i.fa.fa-close:after,
+
+span.overlay-menu-close i.fa.fa-close:after {
+
+    transform: rotate(-45deg);
+
+}
+
+.form-overlay-close-button i.fa.fa-close:before,
+
+span#off-canvas-menu-close i.fa.fa-close:before,
+
+span.overlay-menu-close i.fa.fa-close:before {
+
+    transform: rotate(45deg);
+
+}
+
+/*-----------------------
+
+header menu default
+
+-------------------------*/
+
+div.ut-elementor-addons-lite-main-menu{
+
+	position: relative;
+
+}
+
+div.ut-elementor-addons-lite-main-menu button.Kali-navmenu-toggle-btn {
+
+	display: block;
+
+    padding: 0;
+
+    border: 0;
+
+    background-color: transparent;
+
+    font-size: 30px;
+
+    color: #fff;
+
+}
+
+div.ut-elementor-addons-lite-main-menu button.Kali-navmenu-toggle-btn.left{
+
+	margin-right: auto;
+
+}
+
+div.ut-elementor-addons-lite-main-menu button.Kali-navmenu-toggle-btn.right {
+
+	margin-left: auto;
+
+}
+
+div.ut-elementor-addons-lite-main-menu button.Kali-navmenu-toggle-btn.center{
+
+	margin: 0 auto;
+
+}
+
+div.ut-elementor-addons-lite-main-menu nav.ut-elementor-addons-lite-main-menu ul.ut-elementor-addons-lite-nav-menu-default {
+
+    display: flex;
+
+    flex-direction: row;
+
+    list-style-type: none;
+
+    padding: 0;
+
+    margin: 0;
+
+    min-width: 100%;
+
+}
+
+div.ut-elementor-addons-lite-main-menu nav.ut-elementor-addons-lite-main-menu.left ul.ut-elementor-addons-lite-nav-menu-default {
+
+    justify-content: flex-start;
+
+}
+
+div.ut-elementor-addons-lite-main-menu nav.ut-elementor-addons-lite-main-menu.right ul.ut-elementor-addons-lite-nav-menu-default {
+
+    justify-content: flex-end;
+
+}
+
+div.ut-elementor-addons-lite-main-menu nav.ut-elementor-addons-lite-main-menu.center ul.ut-elementor-addons-lite-nav-menu-default {
+
+    justify-content: center;
+
+}
+
+div.ut-elementor-addons-lite-main-menu nav.ut-elementor-addons-lite-main-menu ul.ut-elementor-addons-lite-nav-menu-default li{
+
+	position: relative;
+
+	padding: 0 10px;
+
+}
+
+div.ut-elementor-addons-lite-main-menu nav.ut-elementor-addons-lite-main-menu ul.ut-elementor-addons-lite-nav-menu-default li .sub-menu li{
+
+    padding: 0;
+
+}
+
+div.ut-elementor-addons-lite-main-menu nav.ut-elementor-addons-lite-main-menu ul.ut-elementor-addons-lite-nav-menu-default li a{
+
+	position: relative;
+
+	display: inline-block;
+
+	transition: all 0.4s ease-in-out;
+
+}
+body.page-template-default .absolute-header.fixed .ut-elementor-addons-lite-main-menu nav ul li a {
+    color: #fff!important;
+}
+div.ut-elementor-addons-lite-main-menu nav.ut-elementor-addons-lite-main-menu ul.ut-elementor-addons-lite-nav-menu-default li.menu-item-has-children ul.sub-menu {
+
+    left: inherit;
+
+    width: 160px!important;
+
+    right: 0;
+
+    background-color: #fff;
+
+}
+div.ut-elementor-addons-lite-main-menu nav.ut-elementor-addons-lite-main-menu.left ul.ut-elementor-addons-lite-nav-menu-default li.menu-item-has-children ul.sub-menu,
+div.ut-elementor-addons-lite-main-menu nav.ut-elementor-addons-lite-main-menu.center ul.ut-elementor-addons-lite-nav-menu-default li.menu-item-has-children ul.sub-menu {
+
+    left: 0;
+
+    right: inherit;
+
+}
+div.ut-elementor-addons-lite-main-menu nav.ut-elementor-addons-lite-main-menu ul.ut-elementor-addons-lite-nav-menu-default li.menu-item-has-children>ul.sub-menu>li.menu-item-has-children ul {
+
+    top: 0;
+
+    left: 101%;
+
+    right: inherit;
+
+}
+
+div.ut-elementor-addons-lite-main-menu nav.ut-elementor-addons-lite-main-menu.right ul.ut-elementor-addons-lite-nav-menu-default li.menu-item-has-children>ul.sub-menu>li.menu-item-has-children ul {
+
+    top: 0;
+
+    left: inherit;
+
+    right: 101%;
+
+}
+
+div.ut-elementor-addons-lite-main-menu nav.ut-elementor-addons-lite-main-menu ul.ut-elementor-addons-lite-nav-menu-default li.menu-item-has-children:hover>ul.sub-menu {
+
+    transform: translateY(10px);
+
+    opacity: 1;
+
+    visibility: visible;
+
+}
+
+div.ut-elementor-addons-lite-main-menu nav.ut-elementor-addons-lite-main-menu ul.ut-elementor-addons-lite-nav-menu-default li.menu-item-has-children>ul.sub-menu>li.menu-item-has-children:hover ul{
+
+	transform: translateY(0px);
+
+}
+
+div.ut-elementor-addons-lite-main-menu nav.ut-elementor-addons-lite-main-menu ul.ut-elementor-addons-lite-nav-menu-default li ul.sub-menu li {
+
+    margin: 0;
+
+}
+
+/*-------------------------------------------------
+
+default hover
+
+------------------------------------------------*/
+
+div.ut-elementor-addons-lite-main-menu nav ul li a{
+
+    display: inline-block;
+
+    position: relative;
+
+    color: #fff;
+
+}
+
+div.ut-elementor-addons-lite-main-menu nav ul li:hover a
+
+div.ut-elementor-addons-lite-main-menu nav ul li.current-menu-item a{
+
+	color: #fff;
+
+}
+
+div.ut-elementor-addons-lite-main-menu nav.ut-elementor-addons-lite-main-menu ul li a{
+
+	color: #fff;
+
+}
+
+div.ut-elementor-addons-lite-main-menu nav.ut-elementor-addons-lite-main-menu ul li:hover a,
+
+div.ut-elementor-addons-lite-main-menu nav.ut-elementor-addons-lite-main-menu ul li.current-menu-item a{
+
+	color: #fff;
+
+}
+
+div.ut-elementor-addons-lite-main-menu nav ul li ul.sub-menu li a{
+
+    color: #fff;
+
+    background-color: #fff;
+
+    text-align: left;
+
+}
+
+div.ut-elementor-addons-lite-main-menu nav ul li ul.sub-menu>li:hover>a,
+
+div.ut-elementor-addons-lite-main-menu nav ul li ul.sub-menu>li.current-menu-item>a{
+
+    color: #fff!important;
+
+    background-color: #000;
+
+}
+
+div.ut-elementor-addons-lite-main-menu nav.default-hover ul li a,
+
+div.ut-elementor-addons-lite-main-menu nav ul li a{
+
+    display: inline-block;
+
+    position: relative;
+
+    color: #fff;
+
+}
+
+div.ut-elementor-addons-lite-main-menu nav.default-hover ul li:hover a,
+
+div.ut-elementor-addons-lite-main-menu nav ul li:hover a,
+
+div.ut-elementor-addons-lite-main-menu nav.default-hover ul li.current-menu-item a,
+
+div.ut-elementor-addons-lite-main-menu nav ul li.current-menu-item a{
+
+	color: #fff;
+
+}
+
+div.ut-elementor-addons-lite-main-menu nav.ut-elementor-addons-lite-main-menu ul li ul.sub-menu li a{
+
+    color: #000;
+
+}
+
+/*-------------------------------------------------------
+
+hover 1
+
+-----------------------------------------------------*/
+
+div.ut-elementor-addons-lite-main-menu nav.hover-1>ul>li>a:before {
+
+    content: '';
+
+    position: absolute;
+
+    bottom: 0;
+
+    left: 0;
+
+    right: 100%;
+
+    height: 2px;
+
+    background-color: #000;
+
+    transition: all 0.4s ease-in-out;
+
+}
+
+div.ut-elementor-addons-lite-main-menu nav.hover-1>ul>li:hover>a:before,
+
+div.ut-elementor-addons-lite-main-menu nav.hover-1>ul>li.current-menu-item>a:before{
+
+    right: 0;
+
+    background-color: #fff;
+
+}
+
+/*-------------------------------------------------------
+
+hover 2
+
+-----------------------------------------------------*/
+
+div.ut-elementor-addons-lite-main-menu nav.hover-2>ul>li>a:before,
+
+div.ut-elementor-addons-lite-main-menu nav.hover-2>ul>li>a:after {
+
+    content: '';
+
+    position: absolute;
+
+    left: 0;
+
+    right: 0;
+
+    height: 2px;
+
+    background-color: #000;
+
+    opacity: 0;
+
+    visibility: hidden;
+
+    transition: all 0.4s ease-in-out;
+
+}
+
+div.ut-elementor-addons-lite-main-menu nav.hover-2>ul>li>a:before {
+
+    top: -5px;
+
+}
+
+div.ut-elementor-addons-lite-main-menu nav.hover-2>ul>li>a:after {
+
+    bottom: -5px;
+
+}
+
+div.ut-elementor-addons-lite-main-menu nav.hover-2>ul>li:hover>a:before,
+
+div.ut-elementor-addons-lite-main-menu nav.hover-2>ul>li.current-menu-item>a:before {
+
+    top: 0px;
+
+}
+
+div.ut-elementor-addons-lite-main-menu nav.hover-2>ul>li:hover>a:after,
+
+div.ut-elementor-addons-lite-main-menu nav.hover-2>ul>li.current-menu-item>a:after{
+
+    bottom: 0px;
+
+}
+
+div.ut-elementor-addons-lite-main-menu nav.hover-2>ul>li:hover>a:before,
+
+div.ut-elementor-addons-lite-main-menu nav.hover-2>ul>li:hover>a:after,
+
+div.ut-elementor-addons-lite-main-menu nav.hover-2>ul>li.current-menu-item>a:before,
+
+div.ut-elementor-addons-lite-main-menu nav.hover-2>ul>li.current-menu-item>a:afte{
+
+    background-color: #fff;
+
+    opacity: 1;
+
+    visibility: visible;
+
+}
+
+/*------------------------------------
+
+hover 3
+
+-------------------------------------*/
+
+div.ut-elementor-addons-lite-main-menu nav.hover-3>ul>li>a:before,
+
+div.ut-elementor-addons-lite-main-menu nav.hover-3>ul>li>a:after {
+
+    content: '';
+
+    position: absolute;
+
+    left: 0px;
+
+    right: 0px;
+
+    top: 100%;
+
+    height: 2px;
+
+    background-color: #000;
+
+    transition: all 0.4s ease-in-out;
+
+}
+
+div.ut-elementor-addons-lite-main-menu nav.hover-3>ul>li>a:after {
+
+    opacity: 0;
+
+    visibility: hidden;
+
+}
+
+div.ut-elementor-addons-lite-main-menu nav.hover-3>ul>li:hover>a:after,
+
+div.ut-elementor-addons-lite-main-menu nav.hover-3>ul>li.current-menu-item>a:after{
+
+    opacity: 1;
+
+    visibility: visible;
+
+    top: -2px;
+
+}
+
+div.ut-elementor-addons-lite-main-menu nav.hover-3>ul>li:hover>a:after,
+
+div.ut-elementor-addons-lite-main-menu nav.hover-3>ul>li:hover>a:before,
+
+div.ut-elementor-addons-lite-main-menu nav.hover-3>ul>li.current-menu-item>a:after,
+
+div.ut-elementor-addons-lite-main-menu nav.hover-3>ul>li.current-menu-item>a:before{
+
+    background-color: #fff;
+
+    left: -5px;
+
+    right: -5px;
+
+}
+
+/*-----------------------------------------
+
+hover 4
+
+-------------------------------------------*/
+
+div.ut-elementor-addons-lite-main-menu nav.hover-4>ul>li>a:before {
+
+    content: '';
+
+    position: absolute;
+
+    left: 0px;
+
+    right: 0px;
+
+    bottom: -5px;
+
+    height: 2px;
+
+    background-color: #000;
+
+    opacity: 0;
+
+    visibility: hidden;
+
+    transition: all 0.4s ease-in-out;
+
+}
+
+div.ut-elementor-addons-lite-main-menu nav.hover-4>ul>li:hover>a:before,
+
+div.ut-elementor-addons-lite-main-menu nav.hover-4>ul>li.current-menu-item>a:before{
+
+	bottom: 0px;
+
+    opacity: 1;
+
+    visibility: visible;
+
+    background-color: #fff;
+
+}
+
+/*-------------------------------------
+
+hover 5
+
+--------------------------------------*/
+
+div.ut-elementor-addons-lite-main-menu nav.hover-5>ul>li>a:before,
+
+div.ut-elementor-addons-lite-main-menu nav.hover-5>ul>li>a:after {
+
+    content: '';
+
+    position: absolute;
+
+    height: 2px;
+
+    background-color: #000;
+
+    transition: all 0.4s ease-in-out;
+
+}
+
+div.ut-elementor-addons-lite-main-menu nav.hover-5>ul>li>a:before {
+
+    bottom: 0;
+
+    left: 0;
+
+    right: 100%;
+
+}
+
+div.ut-elementor-addons-lite-main-menu nav.hover-5>ul>li>a:after {
+
+    top: 0;
+
+    left: 100%;
+
+    right: 0;
+
+}
+
+div.ut-elementor-addons-lite-main-menu nav.hover-5>ul>li:hover>a:before,
+
+div.ut-elementor-addons-lite-main-menu nav.hover-5>ul>li:hover>a:after,
+
+div.ut-elementor-addons-lite-main-menu nav.hover-5>ul>li.current-menu-item>a:before,
+
+div.ut-elementor-addons-lite-main-menu nav.hover-5>ul>li.current-menu-item>a:after{
+
+    background-color: #fff;
+
+}
+
+div.ut-elementor-addons-lite-main-menu nav.hover-5>ul>li:hover>a:before,
+
+div.ut-elementor-addons-lite-main-menu nav.hover-5>ul>li.current-menu-item>a:before {
+
+    right: 0;
+
+}
+
+div.ut-elementor-addons-lite-main-menu nav.hover-5>ul>li:hover>a:after,
+
+div.ut-elementor-addons-lite-main-menu nav.hover-5>ul>li.current-menu-item>a:after  {
+
+    left: 0;
+
+}
+
+/*--------------------------------
+
+overlay and off canvas
+
+-----------------------------------*/
+
+div.ut-elementor-addons-lite-main-menu nav.ut-elementor-addons-lite-main-menu-overlay,
+
+div.ut-elementor-addons-lite-main-menu nav.ut-elementor-addons-lite-main-menu-off-canvas{
+
+    position: fixed;
+
+    padding: 50px 30px;
+
+    left: 0;
+
+    top: 0;
+
+    bottom: 0;
+
+    background-color: #000;
+
+    z-index: 999;
+
+    transition: 0.4s ease-in-out;
+
+}
+
+div.ut-elementor-addons-lite-main-menu nav.ut-elementor-addons-lite-main-menu-overlay {
+
+    width: 100%;
+
+    right: 0;
+
+    transform: scale(.5);
+
+    transform-origin: center;
+
+    opacity: 0;
+
+    visibility: hidden;
+
+}
+
+div.ut-elementor-addons-lite-main-menu nav.ut-elementor-addons-lite-main-menu-off-canvas{
+
+    width: 400px;
+
+    transform: scale(0, 1);
+
+    transform-origin: left;
+
+}
+
+div.ut-elementor-addons-lite-main-menu nav.ut-elementor-addons-lite-main-menu-overlay.overlay-menu-show,
+
+div.ut-elementor-addons-lite-main-menu nav.ut-elementor-addons-lite-main-menu-off-canvas.off-canvas-menu-show{ 
+
+    transform: scale(1, 1);
+
+}
+
+div.ut-elementor-addons-lite-main-menu nav.ut-elementor-addons-lite-main-menu-overlay {
+
+    display: flex;
+
+    flex-wrap: wrap;
+
+    align-items: center;
+
+    justify-content: center;
+
+}
+
+div.ut-elementor-addons-lite-main-menu nav.ut-elementor-addons-lite-main-menu-overlay.overlay-menu-show{ 
+
+    opacity: 1;
+
+    visibility: visible;
+
+}
+
+div.ut-elementor-addons-lite-main-menu nav.ut-elementor-addons-lite-main-menu-overlay ul.ut-elementor-addons-lite-nav-menu-overlay,
+
+div.ut-elementor-addons-lite-main-menu nav.ut-elementor-addons-lite-main-menu-off-canvas ul{
+
+    padding: 0;
+
+    margin: 0;
+
+    list-style-type: none;
+
+}
+
+div.ut-elementor-addons-lite-main-menu nav.ut-elementor-addons-lite-main-menu-overlay ul.ut-elementor-addons-lite-nav-menu-overlay {
+
+    text-align: center;
+
+}
+
+div.ut-elementor-addons-lite-main-menu nav.ut-elementor-addons-lite-main-menu-overlay ul.ut-elementor-addons-lite-nav-menu-overlay li {
+
+    font-size: 20px;
+
+}
+
+div.ut-elementor-addons-lite-main-menu nav.ut-elementor-addons-lite-main-menu-overlay span.overlay-menu-close {
+
+    position: absolute;
+
+    color: #fff;
+
+    top: 50px;
+
+    right: 50px;
+
+    font-size: 26px;
+
+    cursor: pointer;
+
+}
+
+div.ut-elementor-addons-lite-main-menu nav.ut-elementor-addons-lite-main-menu-off-canvas span#off-canvas-menu-close {
+
+    position: absolute;
+
+    color: #fff;
+
+    right: 20px;
+
+    font-size: 20px;
+
+    top: 40px;
+
+    cursor: pointer;
+
+}
+
+div.ut-elementor-addons-lite-main-menu nav.ut-elementor-addons-lite-main-menu-overlay ul.ut-elementor-addons-lite-nav-menu-overlay li.menu-item a,
+
+div.ut-elementor-addons-lite-main-menu nav.ut-elementor-addons-lite-main-menu-off-canvas ul li a{
+
+    margin-bottom: 10px;
+
+}
+
+div.ut-elementor-addons-lite-main-menu nav.ut-elementor-addons-lite-main-menu-overlay ul.ut-elementor-addons-lite-nav-menu-overlay li.menu-item:last-child>a,
+
+div.ut-elementor-addons-lite-main-menu nav.ut-elementor-addons-lite-main-menu-off-canvas ul li:last-child>a{
+
+    margin-bottom: 0px;
+
+}
+
+div.ut-elementor-addons-lite-main-menu nav.ut-elementor-addons-lite-main-menu-off-canvas ul li ul.sub-menu,
+
+div.ut-elementor-addons-lite-main-menu nav.ut-elementor-addons-lite-main-menu-overlay ul li ul.sub-menu {
+
+    opacity: 1;
+
+    visibility: visible;
+
+    position: relative;
+
+    top: 0;
+
+    left: 0;
+
+    width: 100%;
+
+    transform-origin: top;
+
+    transition: all 0.4s ease-in-out;
+
+    transform: translateY(0px);
+
+}
+
+div.ut-elementor-addons-lite-main-menu nav.ut-elementor-addons-lite-main-menu-off-canvas ul li ul.sub-menu li a,
+
+div.ut-elementor-addons-lite-main-menu nav.ut-elementor-addons-lite-main-menu-overlay ul li ul.sub-menu li a{
+
+    background-color: transparent;
+
+    padding: 0;
+
+    margin-bottom: 15px;
+
+    display: block;
+
+}
+
+div.ut-elementor-addons-lite-main-menu nav.ut-elementor-addons-lite-main-menu-off-canvas ul li ul.sub-menu li:last-child>a,
+
+div.ut-elementor-addons-lite-main-menu nav.ut-elementor-addons-lite-main-menu-overlay ul li ul.sub-menu li:last-child>a{
+
+    margin-bottom: 0px;
+
+}
+
+div.ut-elementor-addons-lite-main-menu nav.ut-elementor-addons-lite-main-menu-overlay ul li ul.sub-menu li a{
+
+	text-align: center;
+
+}
+
+div.ut-elementor-addons-lite-main-menu nav.ut-elementor-addons-lite-main-menu-off-canvas ul li ul.sub-menu,
+
+div.ut-elementor-addons-lite-main-menu nav.ut-elementor-addons-lite-main-menu-overlay ul li ul.sub-menu {
+
+    box-shadow: none;
+
+    padding: 0 0px 0 15px;
+
+    margin-top: 20px;
+
+}
+
+
+
+div.ut-elementor-addons-lite-main-menu nav.ut-elementor-addons-lite-main-menu-overlay ul li ul.sub-menu{
+
+	padding: 0;
+
+}
+
+/*---------------------------------------
+
+search
+
+--------------------------------------*/
+
+input:focus,
+
+select:focus,
+
+textarea:focus,
+
+button:focus,
+
+a:focus{
+
+	outline: none!important;
+
+	box-shadow: none;
+
+}
+
+.ut-elementor-addons-lite-search-container form.ut-elementor-addons-lite-search-form .kali-search-form-container {
+
+    position: relative;
+
+}
+
+.ut-elementor-addons-lite-search-container form.ut-elementor-addons-lite-search-form .kali-search-form-container input.kali-search-form-input {
+
+    width: 100%;
+
+}
+
+.ut-elementor-addons-lite-search-container form.ut-elementor-addons-lite-search-form .kali-search-form-container input.kali-search-form-input {
+
+    width: 100%;
+
+    height: 50px;
+
+    border: 0;
+
+    background-color: #e4e4e4;
+
+    padding: 10px;
+
+    font-size: 14px;
+
+}
+
+/*-------------------------------------
+
+default
+
+---------------------------------------*/
+
+.ut-elementor-addons-lite-search-container.default form.ut-elementor-addons-lite-search-form .kali-search-form-container input.kali-search-form-input {
+
+    padding: 10px 100px 10px 10px;
+
+}
+
+.ut-elementor-addons-lite-search-container.default form.ut-elementor-addons-lite-search-form .kali-search-form-container button.elementor-search-form__submit {
+
+    position: absolute;
+
+    top: 5px;
+
+    right: 5px;
+
+    height: 40px;
+
+    padding: 10px 20px;
+
+    font-size: 14px;
+
+    background-color: #898989;
+
+    text-transform: uppercase;
+
+    color: #fff;
+
+    border: 0;
+
+    transition: all 0.3s ease-in-out;
+
+}
+
+.ut-elementor-addons-lite-search-container.default form.ut-elementor-addons-lite-search-form .kali-search-form-container button.elementor-search-form__submit:hover {
+
+    background-color: #000;
+
+    color: #fff;
+
+}
+
+/*---------------------------------------
+
+layout 1
+
+----------------------------------------*/
+
+.ut-elementor-addons-lite-search-container.layout-1 form.ut-elementor-addons-lite-search-form .kali-search-form-container .kali-search-form-icon {
+
+    position: absolute;
+
+    left: 15px;
+
+    top: 8px;
+
+    font-size: 20px;
+
+    color: #000000;
+
+}
+
+.ut-elementor-addons-lite-search-container.layout-1 form.ut-elementor-addons-lite-search-form .kali-search-form-container input.kali-search-form-input {
+
+    padding: 10px 10px 10px 45px;
+
+}
+
+/*-----------------------------------------------
+
+layout 3
+
+------------------------------------------------*/
+
+.ut-elementor-addons-lite-search-container.layout-2 {
+
+    position: relative;
+
+}
+
+.ut-elementor-addons-lite-search-container.layout-2 button.btn-show-search {
+
+	position: absolute;
+
+	font-size: 20px;
+
+    height: 50px;
+
+    padding: 10px 16px;
+
+    background-color: #898989;
+
+    text-transform: uppercase;
+
+    color: #fff;
+
+    border: 0;
+
+    border-radius: 0;
+
+    transition: all 0.3s ease-in-out;
+
+    z-index: 1;
+
+}
+
+.ut-elementor-addons-lite-search-container.layout-2 button.btn-show-search:hover {
+
+    background-color: #000;
+
+    color: #fff;
+
+}
+
+.ut-elementor-addons-lite-search-container.layout-2 form.ut-elementor-addons-lite-search-form.form-layout-2 .kali-search-form-container input.kali-search-form-input {
+
+    width: 0;
+
+    background-color: transparent;
+
+    padding: 10px 10px 10px 10px;
+
+    border-bottom: 1px solid #898989;
+
+    border-radius: 0;
+
+    transition: all 0.4s ease-in-out;
+
+}
+
+.ut-elementor-addons-lite-search-container.layout-2 form.ut-elementor-addons-lite-search-form.form-layout-2.kali-search-form-open .kali-search-form-container input.kali-search-form-input {
+
+    width: 100%;
+
+    padding: 10px 10px 10px 60px;
+
+}
+
+/*---------------------------------------------------
+
+layout 3
+
+--------------------------------------------------*/
+
+.ut-elementor-addons-lite-search-container.layout-3 button.btn-overlay-show-search {
+
+    background-color: transparent;
+
+    border: 0;
+
+    padding: 0;
+
+    font-size: 20px;
+
+    color: #000;
+
+}
+
+.ut-elementor-addons-lite-search-container.layout-3 form.ut-elementor-addons-lite-search-form.form-layout-3{
+
+    position: fixed;
+
+    padding: 50px 30px;
+
+    left: 0;
+
+    top: 0;
+
+    bottom: 0;
+
+    right: 0;
+
+    background-color: rgba(0, 0, 0, 0.9);
+
+    z-index: 999;
+
+    transform: scale(.5);
+
+    transform-origin: center;
+
+    display: flex;
+
+    flex-wrap: wrap;
+
+    align-items: center;
+
+    opacity: 0;
+
+    visibility: hidden;
+
+    transition: 0.4s ease-in-out;
+
+}
+
+.ut-elementor-addons-lite-search-container.layout-3 form.ut-elementor-addons-lite-search-form.form-layout-3.kali-overlay-search-form-open{ 
+
+    opacity: 1;
+
+    visibility: visible;
+
+    transform: scale(1);
+
+}
+
+.ut-elementor-addons-lite-search-container.layout-3 form.ut-elementor-addons-lite-search-form.form-layout-3 .kali-search-form-container.layout-3 {
+
+    width: 100%;
+
+    text-align: center;
+
+}
+
+.ut-elementor-addons-lite-search-container.layout-3 form.ut-elementor-addons-lite-search-form.form-layout-3 .form-overlay-close-button{
+
+    position: absolute;
+
+    top: 50px;
+
+    right: 50px;
+
+    font-size: 26px;
+
+    color: #fff;
+
+    cursor: pointer;
+
+}
+
+.ut-elementor-addons-lite-search-container.layout-3 form.ut-elementor-addons-lite-search-form.form-layout-3 .kali-search-form-container.layout-3 input.kali-search-form-input {
+
+    text-align: center;
+
+    background-color: transparent;
+
+    color: #fff;
+
+    border-bottom: 1px solid #fff;
+
+    width: 400px;
+
+    border-radius: 0;
+
+    margin: 0 auto;
+
+    font-size: 28px;
+
+    transition: 0.4s ease-in-out;
+
+}
+
+.ut-elementor-addons-lite-search-container.layout-3 form.ut-elementor-addons-lite-search-form.form-layout-3 .kali-search-form-container.layout-3 input.kali-search-form-input::placeholder{
+
+	color: #fff;
+
+}
+
+.ut-elementor-addons-lite-search-container.layout-3 form.ut-elementor-addons-lite-search-form.form-layout-3 .kali-search-form-container.layout-3 input.kali-search-form-input:focus {
+
+    width: 80%;
+
+}
+

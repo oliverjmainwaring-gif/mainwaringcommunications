@@ -1,0 +1,90 @@
+{
+  "$schema": "https://schemas.wp.org/trunk/block.json",
+  "apiVersion": 3,
+  "name": "wlcs/wbd-logo-carousel",
+  "version": "1.3.3",
+  "title": "Logo Carousel",
+  "category": "media",
+  "icon": "images-alt2",
+  "description": "Display a beautiful logo carousel, grid or masonry layout with multiple template styles and full style customization.",
+  "example": {
+    "attributes": {
+      "template": "classic",
+      "displayMode": "carousel"
+    }
+  },
+  "attributes": {
+    "logos": {
+      "type": "array",
+      "default": []
+    },
+    "template": {
+      "type": "string",
+      "default": "classic"
+    },
+    "animationDuration": {
+      "type": "number",
+      "default": 30
+    },
+    "showAltText": {
+      "type": "boolean",
+      "default": false
+    },
+    "logoSize": {
+      "type": "number",
+      "default": 150
+    },
+    "slideDirection": {
+      "type": "string",
+      "default": "left"
+    },
+    "displayMode": {
+      "type": "string",
+      "default": "carousel"
+    },
+    "wrapperBgColor": {
+      "type": "string",
+      "default": ""
+    },
+    "itemBgColor": {
+      "type": "string",
+      "default": ""
+    },
+    "itemBorderColor": {
+      "type": "string",
+      "default": ""
+    },
+    "itemBorderWidth": {
+      "type": "number",
+      "default": 0
+    },
+    "itemBorderRadius": {
+      "type": "number",
+      "default": 8
+    },
+    "altTextColor": {
+      "type": "string",
+      "default": ""
+    },
+    "showTooltip": {
+      "type": "boolean",
+      "default": false
+    },
+    "tooltipPosition": {
+      "type": "string",
+      "default": "top"
+    }
+  },
+  "supports": {
+    "html": false,
+    "align": [
+      "wide",
+      "full"
+    ]
+  },
+  "textdomain": "wbd-logo-carousel",
+  "editorScript": "file:./index.js",
+  "editorStyle": "file:./index.css",
+  "style": "file:./style-index.css",
+  "viewScript": "file:./view.js"
+}
